@@ -1,9 +1,7 @@
 # lib3142a
 
-
-Hello! We are team 3142A from Atlanta, Georgia and this is our code for the VEX Robotics Competition 2020-2021 game: Change Up.
-
-This is our sumbission for the Annotated Programming Skills Challenge
+This is lib3142a, the first-ever framework for the VEXcode V5 Pro platform.
+Here is a brief rundown of the file system. The documentation can be found in the `lib3142a/include` files
 
 1. [ File System. ](#fileSys)
 2. [ Resources. ](#resources)
