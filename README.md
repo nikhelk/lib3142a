@@ -1,4 +1,4 @@
-# 3142A-2020-2021
+# lib3142a
 
 
 Hello! We are team 3142A from Atlanta, Georgia and this is our code for the VEX Robotics Competition 2020-2021 game: Change Up.
@@ -7,19 +7,12 @@ This is our sumbission for the Annotated Programming Skills Challenge
 
 1. [ File System. ](#fileSys)
 2. [ Resources. ](#resources)
-3. [ Acknowledgements. ](#ack)
 
 
 <a name="fileSys"></a>
 ## File System ##
 
 ###  Base files ###
-
- - `include/Impl/auto_skills.h` + `src/Impl/auto_skills.cpp` Initializes chassis and code for skills run
- - `include/Impl/robot-config.h` + `src/Impl_src/robot-config.cpp` stores all of the non chassis systens and the bulk of the sensors
- - `include/Impl/usercontrol.h` + `src/Impl_src/usercontrol.cpp` driver controls and functions (in development)
- - `include/Impl/api.h` tree for files used in robot implementation
- - `src/Impl_src/main.cpp` runs int main() function
 
 
 ### Utilities ###
@@ -36,12 +29,6 @@ This is our sumbission for the Annotated Programming Skills Challenge
  - `include/ChassisSystems/motionprofile.h` + `src/ChassisSystems_src/motionprofile.cpp` Library for motion profile and feedforward commands
  - `include/ChassisSystems/odometry.h` + `src/ChassisSystems_src/odometry.cpp` Robot odometry implementation
  
-### Non-Chassis Systems ###
-
- - `include/NonChassisSystems/flywheel.h` + `src/NonChassisSystems_src/flywheel.cpp` flywheel helper functions/tasks
- - `include/NonChassisSystems/indexer.h` + `src/NonChassisSystems_src/indexer.cpp` indexer helper functions/tasks
- - `include/NonChassisSystems/intakes.h` + `src/NonChassisSystems_src/intakes.cpp` intakes helper functions/tasks
- - `include/NonChassisSystems/macros.h` + `src/NonChassisSystems_src/macros.cpp` macros helper functions/tasks for usercontrol (in development)
  
 ### Brain Screen Selector ###
 
@@ -51,5 +38,4 @@ This is our sumbission for the Annotated Programming Skills Challenge
 <a name = "resources"></a>
 ## Resources
 
-<a name = "ack"></a>
-## Acknowledgements
+
