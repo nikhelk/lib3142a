@@ -1,7 +1,7 @@
 # lib3142a
 
 This is lib3142a, the first-ever framework for the VEXcode V5 Pro platform.
-Here is a brief rundown of the file system. The documentation can be found in the `lib3142a/include` files
+Here is a brief rundown of the file system. The documentation can be found in the `lib3142a/include` files. **Please note that this is a work in progress.** 
 
 1. [ File System. ](#fileSys)
 2. [ Resources. ](#resources)
