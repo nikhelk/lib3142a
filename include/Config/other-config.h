@@ -18,4 +18,13 @@ extern triport Expander21;
 extern line bottomLine;
 extern line middleLine;
 extern line topLine;
+extern line outyLine;
 
+enum LineSensorThresolds {
+  TOP_LINE_THRESHOLD = 710,
+  TOP_LINE_EMPTY_THRESHOLD = 715,
+  MIDDLE_LINE_THRESHOLD = 660,
+  BOTTOM_LINE_THRESHOLD = 695,
+  OUTY_LINE_THRESHOLD = 730,
+  INTAKE_STOP_LINE_THRESHOLD = 705
+};

@@ -2,6 +2,7 @@
 
 #include "Util/vex.h"
 #include "Config/other-config.h"
+#include "Impl/auto_skills.h"
 
 using namespace vex;
 /**
