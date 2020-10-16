@@ -13,7 +13,7 @@ int sgn(double num);
 
 /**
  * Determnies cosine of value in degrees
- * @param value (degrees)
+ * @param value ( in degrees)
  * @return cosine of value 
  */
 
@@ -21,7 +21,7 @@ double cosDegrees(double value);
 
 /**
  * Determnies sine of value in degrees
- * @param value (degrees)
+ * @param value ( in degrees)
  * @return sine of value 
  */
 
