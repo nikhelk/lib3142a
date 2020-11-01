@@ -13,6 +13,6 @@ extern brain Brain;
 
 
 /**
- * Used to initialize code/tasks/devices in the chassis
+ * Used to initialize code/tasks/devices of the chassis
  */
 void initChassis(void);
