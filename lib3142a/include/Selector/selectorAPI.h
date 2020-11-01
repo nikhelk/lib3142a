@@ -82,7 +82,7 @@ public:
    * @param pressed state of press on button 
    * @param permamant if button is permamant (always true)
    */
-  int displayButtonControls(int index, bool pressed, bool permamant);
+  int displayButtonControls(int index, bool pressed,bool permamant);
 
   /**
    * switches the button state
