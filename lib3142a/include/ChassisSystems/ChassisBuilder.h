@@ -7,10 +7,10 @@ class FourMotorDrive::FourMotorDriveBuilder {
   std::array<int32_t, 2> m_rightGroup;
   gearSetting gearbox;
   double gearRatio;
-  Dimensions m_chassisDimensions;
+  Dimensions b_chassisDimensions;
   Limits b_chassisLinearLimits;
   Limits b_chassisAngularLimits;
-  std::initializer_list<PDcontroller> m_PDGains;
+  std::initializer_list<PDcontroller> b_PDGains;
 
 
   public:
@@ -28,7 +28,7 @@ class FourMotorDrive::FourMotorDriveBuilder {
       return *this;
     }
     FourMotorDriveBuilder& withDimensions(const Dimensions chassisDimensions) {
-      m_chassisDimensions = chassisDimensions;
+      b_chassisDimensions = chassisDimensions;
       return *this;
     }
     FourMotorDriveBuilder& withLinearLimits(Limits linearChassisLimits) {
