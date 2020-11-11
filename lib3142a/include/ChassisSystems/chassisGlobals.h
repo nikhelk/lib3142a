@@ -122,7 +122,7 @@ public:
 
   void moveToPoint(const double x, const double y, bool backwards = false);
 
-  void driveArcFeedforward(const double radius, const double exitAngle);
+
 
   /// resets the chassis encoders to 0
   void resetPosition();
