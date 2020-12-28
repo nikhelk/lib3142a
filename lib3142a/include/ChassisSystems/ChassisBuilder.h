@@ -23,7 +23,7 @@ class FourMotorDrive::FourMotorDriveBuilder {
       gearbox = gears;
       return *this;
     }
-    FourMotorDriveBuilder& withGearRatio(const double ratio) {
+    FourMotorDriveBuilder& withGearRatio( double ratio) {
       gearRatio = ratio;
       return *this;
     }
